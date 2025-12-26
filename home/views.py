@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.db import connection, DatabaseError
-from models import *
+from .models import *
 
 
 def index(request):
